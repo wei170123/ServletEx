@@ -11,13 +11,13 @@ import javax.servlet.http.HttpServletResponse;
  * Servlet implementation class fragServlet
  */
 @WebServlet("/frag")
-public class FfragServlet extends HttpServlet {
+public class FragServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
     /**
      * @see HttpServlet#HttpServlet()
      */
-    public FfragServlet() {
+    public FragServlet() {
         super();
         // TODO Auto-generated constructor stub
     }

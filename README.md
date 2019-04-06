@@ -53,3 +53,14 @@ Learning note for servlet & eclipse
       作為Java對象序列化中的版本標示之用
 	  當一個class實現了Serializable介面，如果沒有定義serialVersionUID，Eclipse會提供這個提示功能告訴使用者去定義之。
 	  
+### CH4
+
+  - HttpOnly
+	1. 設置Document不能直接存取Cookie
+    2. 避免JS透過Document存取Cookie，防止簡易XSS
+	  
+  - HttpSevletRequest 功能
+      getSession() > 預設true，沒有session物件，則自動產生
+	  getSession(false) > 沒有session物件，則回傳null
+	  
+	  
