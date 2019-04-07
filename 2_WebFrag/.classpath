@@ -11,6 +11,5 @@
 			<attribute name="owner.project.facets" value="jst.webfragment"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="D:/tools/apache-tomcat-8.5.38/lib/servlet-api.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
