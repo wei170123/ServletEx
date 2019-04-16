@@ -55,6 +55,16 @@ Learning note for servlet & eclipse
 	  
 ### CH4
 
+  - HttpOnly
+	1. 設置Document不能直接存取Cookie
+    2. 避免JS透過Document存取Cookie，防止簡易XSS
+	  
+  - HttpSevletRequest 功能
+      getSession() > 預設true，沒有session物件，則自動產生
+	  getSession(false) > 沒有session物件，則回傳null
+	  
+### CH5
+
   - ServletContextListener
 	1. contextInitialized 初始化Servlet前呼叫的function
 	  
@@ -64,3 +74,7 @@ Learning note for servlet & eclipse
   - ServletRequestListener 功能
     1. requestInitialized 收到Request 呼叫的function
 	2. requestDestroyed Response後 呼叫的function
+	  
+  - Filter 功能
+    1. requestInitialized 收到Request 呼叫的function
+	2. requestDestroyed Response後 呼叫的function	
